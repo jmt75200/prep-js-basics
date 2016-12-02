@@ -52,3 +52,16 @@ function epicBattle(wizard, enemy, powa) {
 }
 
 epicBattle(hero.wizard, monster, hero.power);
+
+// Merlin's War
+function merlinsWar(weapon) {
+  if (weapon == weaponChest[1]) {
+    console.log (hero.wizard + " shall slay the " + monster + " with the " + weapon);
+  } else {
+    weapon = weaponChest[1];
+    console.log(hero.wizard + " is ready for war with the " + weapon);
+  }
+}
+
+merlinsWar(hero.weapon);
+
